@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
+import { Helmet } from 'react-helmet'
 import Page from '../../components/page'
 
 import './{mdx.slug}.scss'
@@ -25,6 +26,10 @@ const Fable = ({ data }) => {
       }
       title={data.mdx.frontmatter.title}
     >
+      <Helmet>
+        <title>{data.mdx.frontmatter.title}</title>
+        <meta name="description" content="Fable" />
+      </Helmet>
       <div className='fable__body'>
         <MDXRenderer>
           {data.mdx.body}

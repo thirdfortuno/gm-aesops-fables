@@ -1,5 +1,6 @@
 import * as React from "react"
 import { graphql, Link } from 'gatsby'
+import {Helmet} from "react-helmet";
 
 import Page from "../components/page"
 
@@ -10,6 +11,11 @@ const IndexPage = ({ data }) => {
 
   return (
     <Page title="A List of the Fables" header={<span>The Æsop for Newbies</span>}>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>GM Aesop's Fables</title>
+        <link rel="canonical" href="https://gmaesopsfables.org/" />
+      </Helmet>
       <ul className="index__list">
       {
         sortedData.map(node => (

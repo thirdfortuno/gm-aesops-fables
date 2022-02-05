@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { Helmet } from 'react-helmet'
 import Page from '../components/page.js'
 
 import './about.scss'
@@ -11,6 +12,10 @@ const About = () => {
       title="About the GM Æsop for Newbies"
       header={<Link className='about__link' to="/">List of the Fables »</Link>}
     >
+      <Helmet>
+        <title>About</title>
+        <meta name="description" content="About" />
+      </Helmet>
       <div className='about'>
         <p>GM Aesop for Newbies contains the text of selected fables, and will be enjoyed by players of any rank.</p>
         <p>This is a parody site of the <a href="http://www.read.gov/aesop/index.html" target="_blank" rel="noopener noreferrer">Library of Congress's The Aesop for Children</a>,

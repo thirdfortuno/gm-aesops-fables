@@ -1,0 +1,58 @@
+@font-face{
+  font-family: 'goudyBookletter';
+  src: url("../fonts/GoudyBookletter1911-Regular.ttf");
+}
+
+.page {
+  font-family: 'goudyBookletter', Georgia, 'Times New Roman', Times, serif;
+  color: #666;
+
+  &__about {
+    margin: 24px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  &__body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+    font-size: 24px;
+  }
+
+  &__container {
+    border: solid #ccc 1px;
+    position: relative;
+    width: 85%;
+    height: auto;
+    min-height: 600px;
+    background-color: #fff;
+    margin: 24px auto 0;
+    padding: 60px 48px 48px;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 27%), 0 0 60px rgb(0 0 0 / 10%) inset;
+  }
+
+  &__link {
+    color: #ccc;
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    color: red;
+  }
+
+  &__header {
+    color: #ccc;
+    font-size: 33px;
+    text-align: center;
+    min-height: 120px;
+    letter-spacing: 3px;
+  }
+
+  &__title {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0.67em;
+  }
+}

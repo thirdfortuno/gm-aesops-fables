@@ -1,0 +1,22 @@
+$font-family: 'goudyBookletter', Georgia, Times New Roman, Times, serif;
+
+.index {
+  &__item {
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  &__link {
+    color: #666;
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    color: red;
+  }
+
+  &__list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+}

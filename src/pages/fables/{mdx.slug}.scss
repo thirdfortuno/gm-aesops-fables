@@ -1,0 +1,30 @@
+.fable {
+  &__body {
+    text-indent: 50px;
+  }
+
+  &__header {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__link {
+    color: #ccc;
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    color: red;
+  }
+
+  &__moral {
+    padding-top: 24px;
+    font-style: italic;
+  }
+
+  &__side-button {
+    font-size: 23px;
+    min-width: 200px;
+  }
+}

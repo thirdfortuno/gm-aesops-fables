@@ -1,0 +1,12 @@
+.about {
+  text-indent: 50px;
+
+  &__link {
+    color: #ccc;
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    color: red;
+  }
+}

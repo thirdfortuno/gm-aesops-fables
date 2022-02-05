@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-index-js",
+    "path": "/",
+    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"title":"Two Travelers & a Bear"},"slug":"1"},{"frontmatter":{"title":"The Fox & the Tree of Life"},"slug":"10"},{"frontmatter":{"title":"The Plain Tree"},"slug":"11"},{"frontmatter":{"title":"The Lion, the Bear, & the Fox"},"slug":"2"},{"frontmatter":{"title":"The Wild Boar & the Fox"},"slug":"3"},{"frontmatter":{"title":"The Bat & the Weasels"},"slug":"4"},{"frontmatter":{"title":"The Wolf & the Crane"},"slug":"5"},{"frontmatter":{"title":"The Bundle of Sticks"},"slug":"6"},{"frontmatter":{"title":"The Travelers & the Sea"},"slug":"7"},{"frontmatter":{"title":"The Build at Ranked"},"slug":"8"},{"frontmatter":{"title":"The Boy & the Materials"},"slug":"9"}]}},"pageContext":{}},
+    "staticQueryHashes": []}
